@@ -1,0 +1,22 @@
+{
+  "name": "Landing Page Dev Environment",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ritwickdey.LiveServer",
+        "esbenp.prettier-vscode",
+        "ms-vscode.live-preview",
+        "eamodio.gitlens",
+        "oderwat.indent-rainbow",
+        "christian-kohler.path-intellisense"
+      ],
+      "settings": {
+        "editor.tabSize": 2,
+        "editor.wordWrap": "on",
+        "livePreview.defaultPreviewPath": "/index.html"
+      }
+    }
+  },
+  "forwardPorts": [5500]
+}
